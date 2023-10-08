@@ -22,13 +22,13 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             display: grid;
-            grid-template-columns: 1.2fr 1.3fr; /* Two equal columns */
+            grid-template-columns: 1.2fr 1.3fr; 
         }
 
         .left-half, .right-half {
             padding: 20px;
-            border-right: 1px solid #ccc; /* Add a border between left and right halves */
-            border-bottom: 1px solid #ccc; /* Add a border to all sections */
+            border-right: 1px solid #ccc; 
+            border-bottom: 1px solid #ccc; 
         }
 
         h1 {
@@ -38,15 +38,15 @@
         }
 
         h2 {
-            color: #333; /* Heading color */
-            font-size: 24px; /* Increase the font size for headings */
-            border-bottom: 1.5px solid #0c0c0c; /* Add a border below headings */
+            color: #333; 
+            font-size: 24px; 
+            border-bottom: 1.5px solid #0c0c0c; 
             padding-bottom: 10px;
             margin-bottom: 10px;
         }
           
         ul{
-            border-bottom: 1.5px solid #0c0c0c; /* Add a border below headings */
+            border-bottom: 1.5px solid #0c0c0c;
         }
 
         
@@ -89,7 +89,7 @@
         }
 
         .objective,.technicalskills,.sofyskills,.interests,.languages,.education1, .education2, .projects1,.projects2 , .certifications p{
-            border-bottom: 1.5px solid #0c0c0c; /* Add a border below headings */
+            border-bottom: 1.5px solid #0c0c0c; 
         }
 
         /* Modify the projects section */
@@ -101,4 +101,9 @@
         .projects li {
             margin-bottom: 100px;
         }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                grid-template-columns: 1.5fr; 
+            }
 
